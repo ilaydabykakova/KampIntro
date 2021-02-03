@@ -31,7 +31,17 @@ namespace LoopsExample
             product3.ucret = 70.00;
             product3.stoksayisi = 40;
 
-            Product[] products = new Product[] { product1, product2 ,product3 };
+            Product product4 = new Product();
+            product4.CategoryId = 3;
+            product4.CategoryName = "Çocuk";
+            product4.ProductId = 1;
+            product4.ProductName = "T-Shirt";
+            product4.ucret = 50.00;
+            product4.stoksayisi = 80;
+
+
+
+            Product[] products = new Product[] { product1, product2 ,product3,product4 };
             //FOR LOOP 
             for (int i = 0; i < products.Length; i++)
             {
